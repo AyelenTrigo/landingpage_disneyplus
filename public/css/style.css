@@ -1,0 +1,977 @@
+:root {
+  --azul-color: #0063e5;
+  --fondo-color: #040814;
+  --blanco-color: #f9f9f9;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Avenir, sans-serif;
+  color: var(--blanco-color);
+  background-color: var(--fondo-color);
+}
+section {
+  *padding: 143.36px;
+  padding: 5.6vw;
+}
+/*H E A D E R*/
+
+header {
+  padding: 5px 0;
+  margin: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #040814;
+  background-color: transparent;
+  position: fixed;
+}
+.pointerr {
+  cursor: pointer;
+}
+.menu {
+  max-width: 150px;
+  margin: 7px 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  white-space: nowrap;
+  *background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+}
+.menu a {
+  color: #f9f9f9;
+  border-style: solid;
+  border-width: 1px;
+  color: var(--blanco-color);
+  font-size: 18px;
+  padding: 10px 20px;
+  border-color: #f9f9f9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.menu a:hover {
+  background-color: var(--blanco-color);
+  color: var(--fondo-color);
+  transition: 0.2s;
+}
+
+/*S P L A S H*/
+
+.splash {
+  width: 100%;
+  height: 100vh;
+  background: url(/image/background_flyer.jpg) no-repeat center center;
+  background-size: contain;
+  background-position-y: 0px;
+  background-position-x: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  box-sizing: border-box;
+}
+
+.suscripcion {
+  *min-height: 100vh;
+  max-width: 640px;
+  display: flex;
+  height: 580.61px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #f9f9f9;
+  box-sizing: border-box;
+}
+.suscripcion p {
+  text-align: center;
+  margin-bottom: 0;
+  color: #f9f9f9;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.precio p:nth-child(1) {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.precio p:nth-child(2) {
+  margin: 0;
+  color: #c0c0c0;
+}
+.imagenCombo img {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 0 0 50px;
+}
+h3 {
+  font-size: 28px;
+  text-align: center;
+  line-height: 38px;
+  margin: 0 15px 24px;
+  box-sizing: border-box;
+}
+.botonSuscripcion {
+  height: 68px;
+  display: flex;
+  margin: 12px 0 20px;
+  color: var(--azul-color);
+  box-sizing: border-box;
+  width: 630px;
+}
+.botonSuscripcion input {
+  background-color: var(--azul-color);
+  width: 100%;
+  color: #f9f9f9;
+  line-height: 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  *padding: 20.5px 33px;
+  box-sizing: border-box;
+}
+.letraChica p {
+  padding: 0;
+  margin: 0 10px 20px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #cecece;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/*P A N T A L L A S*/
+
+.pantallas {
+  background: var(--fondo-color);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.imgPantallas img {
+  *width: 1128.14px;
+  width: 44vw;
+}
+.textoPantallas {
+  *padding: 0 51.2px;
+  padding: 0 2vw;
+}
+.textoPantallas h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--blanco-color);
+  margin: 0 0 28px;
+}
+.textoPantallas p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #c0c0c0;
+  margin: 0 0 24px;
+}
+
+/*C O M B O*/
+
+.combo {
+  background: var(--fondo-color);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.textoCombo {
+  *padding: 0 51.2px;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+.textoCombo p {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin: 0 0 20px;
+  color: #c0c0c0;
+}
+.botonCombo {
+  width: 360px;
+  height: 60px;
+  background-color: var(--azul-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.botonCombo input {
+  width: 100%;
+  font-size: 18px;
+  background-color: var(--azul-color);
+  border: none;
+  color: #f9f9f9;
+  letter-spacing: 1px;
+}
+.imgFlyer2 img {
+  *width: 1128.14px;
+  width: 44vw;
+}
+
+/*D E S C A R G A*/
+.descarga {
+  *height: 1315.67px;
+  background-color: var(--fondo-color);
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  *height: 100vh;
+}
+.off2 {
+  display: none;
+}
+.off1 {
+  display: block;
+  margin: 0;
+  box-sizing: border-box;
+  *height: 100wh;
+  width: 100vw;
+}
+.fotoSimba {
+  margin: 0 auto;
+  width: auto;
+  box-sizing: border-box;
+}
+.fotoSimba img {
+  *margin: 0 auto;
+  *height: 1315.67px;
+  width: 87.6vw;
+  height: auto;
+  margin: 0 0 20px;
+  box-sizing: border-box;
+}
+.textoSimba {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-start;
+  *width: 1041.13px;
+  *height: 94px;
+  width: calc(50% - 5vw);
+  left: 50%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 2vw;
+}
+.textoSimba h3 {
+  color: white;
+  margin: 0 0 24px;
+}
+.textoSimba p {
+  margin: 0 0 20px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: #c0c0c0;
+}
+/*D I S P O S I T I V O S*/
+
+.dispositivos {
+  background-color: var(--fondo-color);
+  width: 100%;
+  box-sizing: border-box;
+}
+.Ds {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  box-sizing: border-box;
+}
+
+.D {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  width: 25%;
+  flex-basis: 25%;
+  padding: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  box-sizing: border-box;
+}
+
+.D p {
+  text-align: center;
+  font-size: 18px;
+  color: #c0c0c0;
+}
+.D h3 {
+  font-size: 28px;
+  margin: 0 0 28px;
+}
+.dispositivos h2 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  color: #c0c0c0;
+  font-size: 40px;
+  margin: 0 0 46px;
+  box-sizing: border-box;
+}
+.img_dispositivos img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/*F O O T E R*/
+
+footer {
+  width: 100%;
+  background-color: var(--fondo-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: #f9f9f9;
+  padding: 26px 7.5px;
+  box-sizing: border-box;
+}
+.logo img {
+  width: 80px;
+}
+.enlaces {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#language {
+  background-color: var(--fondo-color);
+  color: #c0c0c0;
+  font-size: 12px;
+  border: none;
+}
+.enlaces a:hover {
+  color: #f9f9f9;
+}
+#language:hover {
+  text-decoration: underline;
+  color: #f9f9f9;
+}
+
+.enlaces a {
+  text-align: center;
+  color: #c0c0c0;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 8px 12px;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+/*T A B L E T S*/
+@media only screen and (max-width: 1440px) {
+  /*S P L A S H*/
+
+  .splash {
+    width: 100%;
+    height: 100vh;
+    *min-height: 100vh;
+  }
+
+  .imagenCombo img {
+    margin: 0 0 30px;
+  }
+
+  /*S I M B A*/
+  section {
+    padding: 5.6vw;
+  }
+
+  .fotoSimba img {
+    width: 85vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /*H E A D E R*/
+  header {
+    background-color: transparent;
+    width: 100%;
+  }
+  .menu {
+    width: 143px;
+    padding: 4px 0;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  .menu a {
+    padding: 0;
+    margin: 0;
+  }
+  section {
+    *padding: 76.8px 38.4px;
+    *flex-basis: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10vw 5vw;
+  }
+  .menu a {
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /*S P L A S H*/
+
+  .splash {
+    background: url(/image/disneyflyer1_v3.png) no-repeat center center;
+    background-position-y: 0px;
+    background-size: 100%;
+    display: flex;
+    *flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    *height: 892.5px;
+    height: auto;
+    padding: 40vw 5vw 10vw;
+    *background-position-x: 13px;
+    box-sizing: border-box;
+    *position: relative;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  .suscripcion {
+    width: 600px;
+    *height: 403.563px;
+    height: auto;
+    box-sizing: border-box;
+    *align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    *background-color: rgba(0, 0, 0, 0.8);
+  }
+  .botonSuscripcion {
+    *height: 50px;
+    *padding: 20.5px 33px;
+    *max-width: 600px;
+    width: 600px;
+    max-width: 600px;
+    height: 68px;
+    box-sizing: border-box;
+  }
+  .imagenCombo img {
+    width: 100%;
+    max-width: 306px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 3vw;
+  }
+  h3 {
+    font-size: 24px;
+    margin: 0 0 13px;
+    line-height: 32px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .botonSuscripcion input {
+    padding: 0 auto;
+    box-sizing: border-box;
+  }
+  .letraChica p {
+    font-size: 12px;
+    margin: 0 0 20px;
+  }
+  .precio p:nth-child(1) {
+    font-size: 16px;
+  }
+  .precio p:nth-child(2) {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .padin {
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+  /*P A N T A L L A S*/
+
+  .textoPantallas h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0 16px;
+    letter-spacing: -1px;
+  }
+
+  .textoPantallas p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 0 0 24px;
+  }
+
+  /*C O M B O*/
+  .textoCombo {
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .textoCombo p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin: 0 0 20px;
+    color: #c0c0c0;
+  }
+
+  /*D E S C A R G A*/
+
+  .descarga {
+    *width: 751px;
+    *height: 793.47px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 10vw 5vw;
+  }
+
+  .off2 {
+    display: none;
+  }
+  .off1 {
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+    *width: 44vw;
+  }
+
+  .fotoSimba img {
+    *width: 674.21px;
+    *height: 501.88px;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+  .textoSimba {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
+    *width: 674.22px;
+    width: calc(50% - 5vw);
+    left: 50%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 2vw;
+  }
+  .textoSimba h3 {
+    font-size: 24px;
+    box-sizing: border-box;
+    margin: 0 0 16px;
+    text-align: left;
+    letter-spacing: -0.2px;
+  }
+  .textoSimba p {
+    margin: 0 0 20px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: left;
+    box-sizing: border-box;
+    *width: 50%;
+  }
+  /*D I S P O S I T I V O S*/
+
+  .descarga {
+    height: auto;
+  }
+  .Ds {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+  }
+  .D {
+    *height: 450px;
+    *width: 330px;
+    max-height: 450px;
+    width: 25%;
+    flex-basis: 25%;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+  .img_dispositivos img {
+    *width: 325.11px;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .D p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 26px;
+    box-sizing: border-box;
+  }
+  .dispositivos h2 {
+    font-size: 26px;
+    box-sizing: border-box;
+    color: #f9f9f9;
+    margin: 0 0 16px;
+  }
+  .D h3 {
+    font-size: 24px;
+    margin: 20px 0 16px;
+    box-sizing: border-box;
+  }
+
+  /*F O O T E R*/
+  footer {
+    flex-wrap: wrap;
+    padding: 38.4px;
+    box-sizing: border-box;
+    line-height: 21px;
+  }
+  .enlaces {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  .enlaces a {
+    box-sizing: border-box;
+    font-size: 11px;
+  }
+}
+/*C E L U L A R E S*/
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 10vw 5vw;
+  }
+
+  .menu {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .menu a {
+    font-size: 13px;
+    box-sizing: content-box;
+    padding: 5px 6px;
+  }
+
+  /*S P L A S H*/
+
+  .splash {
+    padding: 40vw 5vw 20vw;
+    background-position-x: 0px;
+    background-position-y: 0px;
+  }
+  h3 {
+    line-height: 32px;
+    *margin: 0 6px;
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  .suscripcion {
+    *width: 500px;
+    *max-width: 500px;
+    width: 90vw;
+    *height: 425.28px;
+    height: auto;
+  }
+  .imagenCombo img {
+    width: 180px;
+    max-width: 180px;
+    margin-bottom: 1vw;
+  }
+  .botonSuscripcion {
+    width: 500px;
+    width: 90vw;
+    *max-width: 500px;
+    *min-width: 270px;
+    height: 50px;
+    *max-width: calc(500px - 12px);
+  }
+  .botonSuscripcion input {
+    font-size: 15px;
+  }
+  .letraChica p {
+    line-height: 21px;
+  }
+  .precio p:nth-child(1) {
+    font-size: 16px;
+  }
+  .precio p:nth-child(2) {
+    font-size: 15px;
+  }
+
+  /*P A N T A L L A S*/
+
+  .pantallas {
+    flex-direction: column;
+  }
+  .textoPantallas h2 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 16px;
+  }
+  .textoPantallas p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin: 0 0 20px;
+    text-align: center;
+    color: silver;
+  }
+  .imgPantallas {
+    margin: 0 0 20px;
+  }
+
+  .imgPantallas img {
+    width: 88vw;
+  }
+  /*C O M B O*/
+
+  .imgFlyer2 img {
+    max-width: 88vw;
+  }
+
+  .combo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgFlyer2 img {
+    width: 100vw;
+    margin: 0 0 20px;
+  }
+  .textoCombo p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .textoCombo {
+    padding: 0 32px;
+    align-items: center;
+  }
+  .botonCombo {
+    width: 320px;
+    height: 50px;
+  }
+  .botonCombo input {
+    font-size: 15px;
+  }
+
+  /*D E S C A R G A*/
+
+  .descarga {
+    *width: 408px;
+    *height: 520.06px;
+    height: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+  }
+
+  .fotoSimba img {
+    *max-width: 365.5px;
+    *max-height: 272.06px;
+    width: 88vw;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .textoSimba {
+    width: 86vw;
+    *height: 143px;
+    padding: 0 2vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    *justify-content: center;
+    box-sizing: border-box;
+    left: 0;
+  }
+  .textoSimba h3 {
+    font-size: 22px;
+    line-height: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 0 16px;
+    letter-spacing: -0.2px;
+  }
+  .textoSimba p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .off1 {
+    display: none;
+  }
+  .off2 {
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+    *width: 44vw;
+  }
+
+  /*D I S P O S I T I V O S*/
+
+  .Ds {
+    width: 100%;
+    align-content: center;
+  }
+  .D {
+    width: 50%;
+    *height: 372.38px;
+    padding: 8px;
+    box-sizing: border-box;
+    flex-basis: 50%;
+  }
+
+  .D p {
+    margin-top: 0px;
+  }
+
+  /*F O O T E R*/
+
+  footer {
+    padding: 21.25px;
+  }
+  .enlaces a {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /*H E A D E R*/
+  header {
+    width: 100%;
+  }
+
+  /*S P L A S H*/
+  .splash {
+    padding: 40vw 5vw 20vw;
+    min-height: 70vh;
+  }
+  .suscripcion {
+    *min-width: 365.5px;
+    width: 90vw;
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+  .splash h3 {
+    max-width: 365.5px;
+    width: 90vw;
+  }
+  h3 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .botonSuscripcion {
+    *width: 365.5px;
+    width: 90vw;
+    max-width: 365.5px;
+  }
+  .padin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 365.5px;
+    max-width: 90vw;
+  }
+  .letraChica p {
+    line-height: 21px;
+    font-size: 11px;
+  }
+
+  /*C O M B O*/
+
+  .botonCombo {
+    width: 75vw;
+    height: 50px;
+  }
+  .textoCombo {
+    padding: 8.5px;
+    align-items: center;
+  }
+
+  /*D E S C A R G A*/
+
+  .descarga {
+    height: 100vh;
+  }
+
+  .fotoSimba img {
+    width: 86vw;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .textoSimba {
+    box-sizing: border-box;
+  }
+
+  /*D I S P O S I T I V O S*/
+
+  .dispositivos h2 {
+    letter-spacing: -1px;
+    line-height: 35px;
+  }
+
+  .D h3 {
+    font-size: 22px;
+    margin: 20 0 16px;
+  }
+
+  @media only screen and (max-width: 320px) {
+  }
+
+  .D h3 {
+    font-size: 18px;
+  }
+}
